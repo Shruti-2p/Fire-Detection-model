@@ -46,15 +46,9 @@ The CNN model includes the following layers:
 - Output Layer: Binary classification using a sigmoid activation function.
 
 ## Summary of Model Layers
-
-Layer (type)               Output Shape            Param #
-=================================================================
-conv2d (Conv2D)            (None, 256, 256, 32)    896
-max_pooling2d (MaxPooling2D) (None, 128, 128, 32)   0
-...
-dense (Dense)              (None, 1)               129
-=================================================================
-
+Conv2D: Extracts features from the input image, outputting a feature map of size (256, 256, 32) with 896 parameters.
+MaxPooling2D: Reduces the size of the feature map to (128, 128, 32) without learning any parameters.
+Dense: Combines features for final classification, outputting a single value with 129 parameters.
 
 ## Training the Model
 ### Key Steps
