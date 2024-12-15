@@ -45,7 +45,7 @@ The CNN model includes the following layers:
 - Dropout Layers: Introduced to mitigate overfitting during training.
 - Output Layer: Binary classification using a sigmoid activation function.
 
-### Summary of Model Layers
+## Summary of Model Layers
 
 Layer (type)               Output Shape            Param #
 =================================================================
