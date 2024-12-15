@@ -1,4 +1,3 @@
-# Fire-Detection-model
 # Fire Detection using CNN
 
 This repository implements a Fire Detection System using Convolutional Neural Networks (CNNs). The goal is to classify images into "fire" or "non-fire" categories by leveraging modern deep learning techniques. This system has been designed to assist in early fire detection through image data processing, making it potentially applicable in real-world scenarios such as surveillance systems.
